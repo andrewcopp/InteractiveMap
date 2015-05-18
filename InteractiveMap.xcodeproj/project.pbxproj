@@ -13,6 +13,10 @@
 		57D4332C1B0A892500DDDC87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D4332B1B0A892500DDDC87 /* Images.xcassets */; };
 		57D4332F1B0A892500DDDC87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D4332D1B0A892500DDDC87 /* LaunchScreen.xib */; };
 		57D4333B1B0A892500DDDC87 /* InteractiveMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4333A1B0A892500DDDC87 /* InteractiveMapTests.swift */; };
+		57D433451B0A8A7300DDDC87 /* InteractiveMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D433441B0A8A7300DDDC87 /* InteractiveMapView.swift */; };
+		57D433471B0A8F8500DDDC87 /* SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D433461B0A8F8500DDDC87 /* SVG.swift */; };
+		57D433491B0A994500DDDC87 /* SVGPathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D433481B0A994500DDDC87 /* SVGPathElement.swift */; };
+		57D4334B1B0AA16000DDDC87 /* SVGUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4334A1B0AA16000DDDC87 /* SVGUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		57D433341B0A892500DDDC87 /* InteractiveMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D433391B0A892500DDDC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D4333A1B0A892500DDDC87 /* InteractiveMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveMapTests.swift; sourceTree = "<group>"; };
+		57D433441B0A8A7300DDDC87 /* InteractiveMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveMapView.swift; sourceTree = "<group>"; };
+		57D433461B0A8F8500DDDC87 /* SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVG.swift; sourceTree = "<group>"; };
+		57D433481B0A994500DDDC87 /* SVGPathElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGPathElement.swift; sourceTree = "<group>"; };
+		57D4334A1B0AA16000DDDC87 /* SVGUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				57D4332B1B0A892500DDDC87 /* Images.xcassets */,
 				57D4332D1B0A892500DDDC87 /* LaunchScreen.xib */,
 				57D433221B0A892500DDDC87 /* Supporting Files */,
+				57D433441B0A8A7300DDDC87 /* InteractiveMapView.swift */,
+				57D433461B0A8F8500DDDC87 /* SVG.swift */,
+				57D433481B0A994500DDDC87 /* SVGPathElement.swift */,
+				57D4334A1B0AA16000DDDC87 /* SVGUtils.swift */,
 			);
 			path = InteractiveMap;
 			sourceTree = "<group>";
@@ -212,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D4334B1B0AA16000DDDC87 /* SVGUtils.swift in Sources */,
+				57D433471B0A8F8500DDDC87 /* SVG.swift in Sources */,
+				57D433451B0A8A7300DDDC87 /* InteractiveMapView.swift in Sources */,
 				57D433271B0A892500DDDC87 /* ViewController.swift in Sources */,
+				57D433491B0A994500DDDC87 /* SVGPathElement.swift in Sources */,
 				57D433251B0A892500DDDC87 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
