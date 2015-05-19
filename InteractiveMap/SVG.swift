@@ -55,8 +55,7 @@ class SVG: NSObject, NSXMLParserDelegate {
             }
             
             currentTransform = CGAffineTransformConcat(t, currentTransform!)
-            transforms?.append(NSStringFromCGAffineTransform(currentTransform!)
-)
+            transforms?.append(NSStringFromCGAffineTransform(currentTransform!))
         }
     }
     

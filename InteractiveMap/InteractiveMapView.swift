@@ -25,4 +25,9 @@ class InteractiveMapView: UIView {
         return [String : UIColor]();
     }
     
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        //
+    }
+    
 }
